@@ -12,4 +12,6 @@ using BVHBaiThi.Models;
         {}
 
         public DbSet<BVHBaiThi.Models.Person> Person { get; set; } = default!;
+
+public DbSet<BVHBaiThi.Models.Student> Student { get; set; } = default!;
     }
